@@ -1,0 +1,49 @@
+.NavbarLightWrapper {
+   display: flex;
+   align-items: flex-end;
+}
+
+.LinkContainer, .LogoBeansWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   text-align: center;
+   a {
+      display: flex;
+      align-items: flex-end;
+      text-decoration: none;
+      cursor: pointer;
+      img {
+         margin-right: 5px;
+      }
+      &:hover {
+         color: #fff;
+      }
+   }
+}
+
+.NavbarDark {
+   padding: 20px 0 10px;
+   * {
+      color: #000;
+   }
+}
+
+.NavbarDarkWrapper {
+   display: flex;
+   align-items: flex-end;
+   text-align: center;
+   div {
+      a {
+         text-decoration: none;
+         &:hover {
+            color: #000
+         }
+      }
+   }
+}
+
+.LogoBeansWrapper {
+   margin: 20px 0;
+}

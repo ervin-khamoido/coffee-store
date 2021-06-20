@@ -1,0 +1,80 @@
+
+.Cover {
+   background: url('../../images/Main_bg.jpg') no-repeat;
+   background-size: 100% auto;
+   height: 100vh;
+   color: #fff;
+   font-weight: 900;
+}
+
+.CoverMainContent {
+   margin-top: 190px;
+   text-align: center;
+   h1 {
+      margin-bottom: 10px;
+      font-size: 40px;
+      font-weight: 900;
+   }
+}
+
+.CoverSubtitleText {
+   margin: 35px 0 20px;
+   font-size: 24px;
+   text-align: center;
+}
+
+.CoverSubtitleBtn {
+   width: 120px;
+   height: 30px;
+   border: 1px solid #fff;
+   border-radius: 3px;
+   background-color: transparent;
+   font-size: 14px;
+   font-weight: 900;
+   color: #fff;
+   a {
+      text-decoration: none;
+      &:hover {
+         color: #fff;
+      }
+   }
+}
+
+.About {
+   padding: 0 0 100px;
+   h2 {
+      text-align: center;
+   }
+}
+
+.AboutTitle {
+   margin-bottom: 50px;
+}
+
+.AboutMainText {
+   font-size: 14px;
+   text-align: center;
+}
+
+.Best {
+   background: url('../../images/paper.jpg') no-repeat;
+   background-size: 100% auto;
+   padding: 80px 0 100px;
+   h2 {
+      margin-bottom: 70px;
+   }
+}
+
+.GoodsContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.Footer {
+   display: flex;
+   justify-content: center;
+   * {
+      color: #000;
+   }
+}

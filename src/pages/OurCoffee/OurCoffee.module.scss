@@ -1,0 +1,89 @@
+.Cover {
+   padding-bottom: 100px;
+   background: url('../../images/Coffee_bg.jpg') no-repeat;
+   background-size: 100% auto;
+   color: #fff;
+   font-weight: 900;
+   h1 {
+      margin: 100px 0;
+   }
+}
+
+.About {
+   position: relative;
+   &:after {
+      content: '';
+      display: inline-block;
+      width: 240px;
+      height: 1px;
+      background-color: #000;
+      position: absolute;
+      margin-top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}
+
+.CoffeeGirlWrapper {
+   text-align: center;
+}
+
+.SubtitleLogo {
+   text-align: center;
+}
+
+.TextWrapper {
+   margin-top: 30px;
+   text-align: center;
+   font-size: 14px;
+}
+
+.Goods {
+   padding: 130px 0 50px;
+}
+
+.ControlbarSearch, .ControlbarFilter {
+   margin-bottom: 50px;
+}
+
+.SearchWrapper, .FilterWrapper{
+   margin-bottom: 50px;
+   label {
+      margin-right: 20px;
+      font-size: 14px;
+   }
+   input {
+      &:focus {
+         outline: none
+      }
+      width: 180px;
+      height: 30px;
+      font-size: 12px;
+      text-align: center;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 4px 4px 20px 0 rgba(0,0,0,.25);
+      cursor: pointer;
+   }
+}
+
+.FilterWrapper {
+   display: flex;
+   flex-wrap: nowrap;
+   ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      font-size: 12px;
+      li {
+         margin-right: 15px;
+         padding: 5px 20px;
+         text-align: center;
+         border: none;
+         border-radius: 4px;
+         box-shadow: 4px 4px 20px 0 rgba(0,0,0,.25);
+         cursor: pointer;
+      }
+   }
+}

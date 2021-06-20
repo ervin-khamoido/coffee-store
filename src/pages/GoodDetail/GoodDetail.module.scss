@@ -1,0 +1,39 @@
+.Cover {
+   padding-bottom: 100px;
+   background: url('../../images/Coffee_bg.jpg') no-repeat;
+   background-size: 100% auto;
+   color: #fff;
+   font-weight: 900;
+   h1 {
+      margin: 100px 0;
+   }
+}
+
+.About {
+   margin-bottom: 20px;
+}
+
+.CoffeeGoodWrapper {
+   max-width: 400px;
+   text-align: center;
+   img {
+      width: 100%;
+   }
+}
+
+.SubtitleLogo {
+   text-align: center;
+}
+
+.TextWrapper {
+   margin-top: 30px;
+   text-align: left;
+   font-size: 14px;
+   span {
+      font-weight: 900;
+   }
+}
+
+.GoodPrice {
+   font-size: 24px;
+}
